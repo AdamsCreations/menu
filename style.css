@@ -67,7 +67,7 @@ html{
 .burger-title{
     font-size: 50px;
     color: #F0A500;
-    font-family: 'Playwrite MX', cursive; 
+    font-family: 'Playwrite IT Moderna';
     font-weight: 900;
     padding-bottom: 100px;
     margin-right: 70px;
@@ -75,7 +75,7 @@ html{
     width: 300px;
     text-decoration: underline wavy;
     text-decoration-color: #E45826;
-    text-underline-offset: 30px;
+    text-underline-offset: 25px;
 }
 
 .burger-options{
@@ -111,7 +111,7 @@ html{
     font-size: 50px;
     text-align: center;
     color: #F0A500;
-    font-family: 'Playwrite MX', cursive; 
+    font-family: 'Playwrite IT Moderna'; 
     font-weight: 900;
     padding-bottom: 100px;
     margin-right: 70px;
@@ -135,7 +135,7 @@ html{
 .sandwich-title{
     font-size: 50px;
     color: #F0A500;
-    font-family: 'Playwrite MX', cursive; 
+    font-family: 'Playwrite IT Moderna'; 
     font-weight: 900;
     padding-bottom: 100px;
     margin-right: 70px;
