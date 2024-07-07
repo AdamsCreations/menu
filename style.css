@@ -76,6 +76,7 @@ html{
     text-decoration: underline wavy;
     text-decoration-color: #E45826;
     text-underline-offset: 25px;
+    -moz-text-decoration-style: wavy;
 }
 
 .burger-options{
@@ -120,6 +121,7 @@ html{
     text-decoration: underline wavy;
     text-decoration-color: #E45826;
     text-underline-offset: 25px;
+    -moz-text-decoration-style: wavy;
 }
 
 .pasta-options{
@@ -144,6 +146,7 @@ html{
     text-decoration: underline wavy;
     text-decoration-color: #E45826;
     text-underline-offset: 25px;
+    -moz-text-decoration-style: wavy;
 }
 
 
