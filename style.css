@@ -147,4 +147,68 @@ html{
 }
 
 
+  @media (min-width: 319px) and (max-width: 480px) {
+
+
+    .menu{
+        flex-direction: column;
+    }
+
+    .burger-image {
+      display: none;
+    }
+
+    .sandwich-image{
+        display: none;
+    }
+
+    .burger-title{
+        text-align: center;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .burger-options{
+        margin-left: 0px;
+    }
+
+    .pasta-section{
+        border: none;
+    }
+
+    .pasta-options{
+        margin-left: 0px;
+    }
+
+    
+    .sandwich-title{
+        text-align: center;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .sandwich-options{
+        margin-left: 0px;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 1200px) {
+    body {
+      
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+      
+    }
+  }
+
+  @media (min-width: 1601px) {
+    body {
+      
+    }
+  }
+
+
 
