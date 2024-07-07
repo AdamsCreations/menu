@@ -1,0 +1,150 @@
+html{
+    background-color: #1B1A17;
+    margin: 0%;
+    padding: 0%;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.text_1 {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-size: 60px;                                            
+    font-weight: 400;
+    color: #F0A500;
+    font-family: 'Playwrite MX', cursive; 
+}
+
+.text_2 {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-size: 60px;                                            
+    font-weight: 400;
+    color: #EEEEEE;
+    font-family: "Oswald", sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #F0A500;
+    text-underline-offset: 10px;
+}
+
+
+.burger-image{
+   position: absolute;
+   bottom: 56%;
+   height: 300px;
+   width: 310px;
+   border: solid #F0A500;
+   border-right-width: 20px;
+   border-bottom-right-radius: 50%;
+   border-top-right-radius: 50%;
+   border-bottom-left-radius: 50%;
+}
+
+.sandwich-image{
+    position: absolute;
+    left: 69.5%;
+    bottom: 62%;
+    height: 250px;
+    width: 450px;
+    border: solid #F0A500;
+    border-bottom-width: 12px ;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.burger-section{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.burger-title{
+    font-size: 50px;
+    color: #F0A500;
+    font-family: "Playwrite IT Moderna";
+    font-weight: 900;
+    padding-bottom: 100px;
+    margin-right: 70px;
+    height: 50px;
+    width: 300px;
+    text-decoration: underline wavy;
+    text-decoration-color: #E45826;
+    text-underline-offset: 25px;
+}
+
+.burger-options{
+    margin-left: 30px;
+
+}
+
+.option{
+    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    color: #F0A500;
+}
+
+.ingredients{
+    font-size: 10px;
+    font-weight: 100;
+    color: #EEEEEE;
+}
+
+.pasta-section{
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border: solid #F0A500 ;
+    border-width: 5px;
+    border-spacing: 100px;
+}
+
+.pasta-title{
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-size: 50px;
+    text-align: center;
+    color: #F0A500;
+    font-family: "Playwrite IT Moderna";
+    font-weight: 900;
+    padding-bottom: 100px;
+    margin-right: 70px;
+    height: 50px;
+    width: 300px;
+    text-decoration: underline wavy;
+    text-decoration-color: #E45826;
+    text-underline-offset: 25px;
+}
+
+.pasta-options{
+    margin-left: 25px;
+}
+
+.sandwich-section{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.sandwich-title{
+    font-size: 50px;
+    color: #F0A500;
+    font-family: "Playwrite IT Moderna";
+    font-weight: 900;
+    padding-bottom: 100px;
+    margin-right: 70px;
+    height: 50px;
+    width: 300px;
+    text-decoration: underline wavy;
+    text-decoration-color: #E45826;
+    text-underline-offset: 25px;
+}
+
+
+
