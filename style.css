@@ -36,8 +36,9 @@ html{
     position: absolute;
     top: 0px;
     left: 0px;
+    width: 20vw; /* Set a percentage of the viewport width */
+    max-width: 350px; /* Set a maximum width */
     height: 300px;
-    width: 310px;
     border: solid #F0A500;
     border-right-width: 20px;
     border-bottom-right-radius: 50%;
@@ -49,8 +50,9 @@ html{
     position: absolute;
     right: 0px;
     top: 0px;
+    width: 30vw; /* Set a percentage of the viewport width */
+    max-width: 450px; /* Set a maximum width */
     height: 250px;
-    width: 450px;
     border: solid #F0A500;
     border-bottom-width: 12px ;
     border-bottom-right-radius: 50%;
@@ -145,7 +147,7 @@ html{
     text-underline-offset: 25px;
 }
 
-
+  /* phones  /*/
   @media (min-width: 319px) and (max-width: 480px) {
 
 
@@ -191,11 +193,15 @@ html{
     }
   }
 
+  /* tablets  /*/
+
   @media (min-width: 481px) and (max-width: 1200px) {
     body {
       
     }
   }
+
+  /* laptops  /*/
 
   @media (min-width: 1201px) and (max-width: 1600px) {
     body {
@@ -203,6 +209,7 @@ html{
     }
   }
 
+  /* large screens  /*/
   @media (min-width: 1601px) {
     body {
       
