@@ -10,7 +10,7 @@ html{
     gap: 100px;
 }
 
-.text_1 {
+.text-1 {
     margin: 0%;
     padding: 0%;
     text-align: center;
@@ -20,7 +20,7 @@ html{
     font-family: 'Playwrite MX', cursive; 
 }
 
-.text_2 {
+.text-2 {
     text-align: center;
     font-size: 60px;                                            
     font-weight: 400;
@@ -32,7 +32,7 @@ html{
 }
 
 
-.burger-image{
+.burger-image-1{
     position: absolute;
     top: 0px;
     left: 0px;
@@ -46,7 +46,19 @@ html{
     border-bottom-left-radius: 50%;
 }
 
-.sandwich-image{
+.burger-image-2{
+    display: none;
+}
+
+.pasta-image-1{
+    display: none;
+}
+
+.pasta-image-2{
+    display: none;
+}
+
+.sandwich-image-1{
     position: absolute;
     right: 0px;
     top: 0px;
@@ -57,6 +69,10 @@ html{
     border-bottom-width: 12px ;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
+}
+
+.sandwich-image-2{
+    display: none;
 }
 
 .burger-section{
@@ -148,18 +164,19 @@ html{
 }
 
   /* phones  /*/
-  @media (min-width: 319px) and (max-width: 480px) {
+  @media (min-width: 319px) and (max-width: 660px) {
 
 
     .menu{
         flex-direction: column;
+        align-items: center;
     }
 
-    .burger-image {
+    .burger-image-1 {
       display: none;
     }
 
-    .sandwich-image{
+    .sandwich-image-1{
         display: none;
     }
 
@@ -193,28 +210,138 @@ html{
     }
   }
 
+
+
+
+
+
   /* tablets  /*/
 
-  @media (min-width: 481px) and (max-width: 1200px) {
-    body {
-      
+  @media (min-width: 661px) and (max-width: 1350px) {
+    
+    
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .burger-image-1{
+        top: 220px;
+        border-bottom-left-radius: 5%;
+        border-top-left-radius: 5%;
+    }
+
+    .burger-image-2{
+        position: absolute;
+        display: block;
+        top: 220px;
+        right: 0px;
+        width: 20vw; /* Set a percentage of the viewport width */
+        max-width: 350px; /* Set a maximum width */
+        height: 300px;
+        border: solid #F0A500;
+        border-left-width: 20px;
+        border-bottom-right-radius: 5%;
+        border-top-right-radius: 5%;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+    }
+
+    .pasta-image-1{
+        display: block;
+        position: absolute;
+        display: block;
+        top: 920px;
+        left: 0px;
+        width: 20vw; /* Set a percentage of the viewport width */
+        max-width: 350px; /* Set a maximum width */
+        height: 300px;
+        border: solid #F0A500;
+        border-right-width: 20px;
+        border-bottom-left-radius: 5%;
+        border-top-left-radius: 5%;
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+
+    .pasta-image-2{
+        position: absolute;
+        display: block;
+        top: 920px;
+        right: 0px;
+        width: 20vw; /* Set a percentage of the viewport width */
+        max-width: 350px; /* Set a maximum width */
+        height: 300px;
+        border: solid #F0A500;
+        border-left-width: 20px;
+        border-bottom-right-radius: 5%;
+        border-top-right-radius: 5%;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+    }
+
+
+    .sandwich-image-1{
+        display: block;
+        top: 1560px;
+        border-left-width: 20px;
+        border-bottom-width: 1px;
+        width: 20vw; /* Set a percentage of the viewport width */
+        max-width: 350px; /* Set a maximum width */
+        height: 300px;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 5% ;
+    }
+
+    .sandwich-image-2{
+        position: absolute;
+        display: block;
+        top: 1560px;
+        left: 0px;
+        width: 20vw; /* Set a percentage of the viewport width */
+        max-width: 350px; /* Set a maximum width */
+        height: 300px;
+        border: solid #F0A500;
+        border-right-width: 20px;
+        border-bottom-left-radius: 5%;
+        border-top-left-radius: 5%;
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+
+    .burger-title{
+        text-align: center;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .burger-options{
+        margin-left: 0px;
+    }
+
+    .pasta-section{
+        border: none;
+    }
+
+    .pasta-options{
+        margin-left: 0px;
+    }
+
+    
+    .sandwich-title{
+        text-align: center;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .sandwich-options{
+        margin-left: 0px;
     }
   }
+  
 
-  /* laptops  /*/
-
-  @media (min-width: 1201px) and (max-width: 1600px) {
-    body {
-      
-    }
-  }
-
-  /* large screens  /*/
-  @media (min-width: 1601px) {
-    body {
-      
-    }
-  }
 
 
 
